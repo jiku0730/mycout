@@ -1,20 +1,16 @@
 #include "mycout.hpp"
-#include <cstdio>
 
 int main()
 {
-    mycout << 0;
-    std::putchar('\n');
+    mycout << 0 << '\n';
+    mycout << 123 << '\n';
+    mycout << -456 << '\n';
+    mycout << 2147483647 << '\n';
+    mycout << 1 << 2 << 3 << '\n';
 
-    mycout << 123;
-    std::putchar('\n');
-
-    mycout << -456;
-    std::putchar('\n');
-
-    mycout << 2147483647;
-    std::putchar('\n');
-
-    mycout << 1 << 2 << 3;
-    std::putchar('\n');
+    mycout << 'A' << '\n';
+    mycout << 'a' << 'b' << 'c' << '\n';
+    mycout << '0' << '\n';
+    mycout << ' ' << '!' << '\n';
+    mycout << 'x' << 1 << 'y' << '\n';
 }
