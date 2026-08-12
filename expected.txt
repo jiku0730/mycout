@@ -14,3 +14,8 @@ x1y
 100
 1e+10
 10.25z
+Hello, world!
+
+abc
+tab	と改行
+n = 42, x = 0.5

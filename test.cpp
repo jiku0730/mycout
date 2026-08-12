@@ -20,4 +20,10 @@ int main()
     mycout << 100.0 << '\n';
     mycout << 1e10 << '\n';
     mycout << 1 << 0.25 << 'z' << '\n';
+
+    mycout << "Hello, world!" << '\n';
+    mycout << "" << '\n';
+    mycout << "a" << "b" << "c" << '\n';
+    mycout << "tab\tと改行" << '\n';
+    mycout << "n = " << 42 << ", x = " << 0.5 << '\n';
 }
