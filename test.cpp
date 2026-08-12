@@ -26,4 +26,10 @@ int main()
     mycout << "a" << "b" << "c" << '\n';
     mycout << "tab\tと改行" << '\n';
     mycout << "n = " << 42 << ", x = " << 0.5 << '\n';
+
+    mycout << true << '\n';
+    mycout << false << '\n';
+    mycout << true << false << true << '\n';
+    mycout << (1 < 2) << (1 == 2) << '\n';
+    mycout << "flag: " << true << '\n';
 }

@@ -19,3 +19,8 @@ Hello, world!
 abc
 tab	と改行
 n = 42, x = 0.5
+1
+0
+101
+10
+flag: 1
