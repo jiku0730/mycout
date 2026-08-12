@@ -8,3 +8,9 @@ MyCout& MyCout::operator <<(int x)
     std::printf("%d", x);
     return *this;
 }
+
+MyCout& MyCout::operator <<(char x)
+{
+    std::fputc(x, stdout);
+    return *this;
+}
