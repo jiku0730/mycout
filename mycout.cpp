@@ -3,6 +3,12 @@
 
 MyCout mycout;
 
+MyCout& MyCout::operator <<(bool x)
+{
+    std::fputs((x ? "1" : "0"), stdout);
+    return *this;
+}
+
 MyCout& MyCout::operator <<(int x)
 {
     std::printf("%d", x);

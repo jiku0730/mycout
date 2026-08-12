@@ -4,6 +4,8 @@ class MyCout
 {
 public:
 
+    MyCout& operator <<(bool x);
+
     MyCout& operator <<(int x);
 
     MyCout& operator <<(char x);
