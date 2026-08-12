@@ -20,3 +20,9 @@ MyCout& MyCout::operator <<(double x)
     std::printf("%g", x);
     return *this;
 }
+
+MyCout& MyCout::operator <<(const char* s)
+{
+    std::fputs(s, stdout);
+    return *this;
+}
